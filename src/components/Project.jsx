@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/portfolio.jpeg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Nasibodula/Portfolio",
-    previewUrl: "https://github.com/Nasibodula/Portfolio",
+    previewUrl: "/",
   },
   {
     id: 2,
