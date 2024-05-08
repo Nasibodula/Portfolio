@@ -9,10 +9,10 @@ const projectsData = [
     id: 1,
     title: "React Portfolio Website",
     description: "Project 1 description",
-    image: "/images/projects/1.png",
+    image: "/images/projects/portfolio.jpeg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://portfolio-nu-azure-30.vercel.app/",
+    gitUrl: "https://github.com/Nasibodula/Portfolio",
+    previewUrl: "https://github.com/Nasibodula/Portfolio",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "Project 2 description",
     image: "/images/projects/Farmer.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://farmer-pi.vercel.app/login",
+    gitUrl: "https://github.com/Nasibodula/farmer",
+    previewUrl: "https://farmer-pi.vercel.app/",
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const projectsData = [
     description: "Project 3 description",
     image: "/images/projects/event.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Nasibodula/Ticket-booking_system",
+    previewUrl: "https://ticket-booking-system-snowy.vercel.app/",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const projectsData = [
     description: "Project 4 description",
     image: "/images/projects/school.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Nasibodula/School-Website",
     previewUrl: "https://school-website-lime.vercel.app/",
   },
   {
@@ -47,7 +47,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/todo.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Nasibodula/Todo_List-App",
     previewUrl: "https://todo-list-app-red-two.vercel.app/",
   },
 
@@ -57,7 +57,7 @@ const projectsData = [
     description: "Project 6 description",
     image: "/images/projects/weather.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Nasibodula/Weather-App",
     previewUrl: "https://weather-app-ruddy-phi-27.vercel.app/",
   },
 ];
