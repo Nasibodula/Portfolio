@@ -45,13 +45,10 @@ const Contact = () => {
           I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          {/* Replace these Links with your own anchor tags */}
-          <a href="github.com">
-            {/* Replace this with your SVG icon */}
+          <a href="https://github.com/nasibodula">
             <img src="github-icon.svg" alt="Github Icon" />
           </a>
-          <a href="linkedin.com">
-            {/* Replace this with your SVG icon */}
+          <a href="https://linkedin.com/in/nasibo-dula-chudo-8a1296241">
             <img src="linkedin-icon.svg" alt="Linkedin Icon" />
           </a>
         </div>
