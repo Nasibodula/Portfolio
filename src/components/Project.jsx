@@ -34,12 +34,12 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Event-Booking Website",
+    title: "Hospital Website",
     description: "Project 3 description",
-    image: "/images/projects/event.png",
+    image: "/images/projects/hospital.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Nasibodula/Ticket-booking_system",
-    previewUrl: "https://ticket-booking-system-snowy.vercel.app/",
+    gitUrl: "https://github.com/Nasibodula/Hospital-website",
+    previewUrl: "https://hospital-website-flame.vercel.app/",
   },
   {
     id: 5,
@@ -50,15 +50,7 @@ const projectsData = [
     gitUrl: "https://github.com/Nasibodula/School-Website",
     previewUrl: "https://school-website-lime.vercel.app/",
   },
-  // {
-  //   id: 6,
-  //   title: "Todo list app",
-  //   description: "Project 5 description",
-  //   image: "/images/projects/todo.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "https://github.com/Nasibodula/Todo_List-App",
-  //   previewUrl: "https://todo-list-app-red-two.vercel.app/",
-  // },
+
 
   {
     id: 6,
