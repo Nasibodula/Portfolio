@@ -25,3 +25,36 @@
       )
       rgb(var(--background-start-rgb));
   }
+  h1, h2, h3 { font-family: "Playfair Display", Georgia, serif; }
+html { background: #0a0a0c; overflow-x: clip; }
+body { overflow-x: clip; }
+
+.editorial-link {
+  position: relative; display: inline-block;
+  text-transform: uppercase; letter-spacing: 0.15em; font-size: 0.8rem;
+}
+.editorial-link::after {
+  content: ""; position: absolute; left: 0; bottom: -3px; width: 100%; height: 1px;
+  background: currentColor; transform: scaleX(1); transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.editorial-link:hover::after { transform: scaleX(0); transform-origin: right; }
+/* ---------- Selected Works (marquee + star border) ---------- */
+@keyframes works-scroll { from { transform: translate3d(0,0,0); } to { transform: translate3d(-50%,0,0); } }
+@keyframes star-rotate { to { transform: rotate(360deg); } }
+
+.works-marquee { animation: works-scroll 25s linear infinite; will-change: transform; }
+@media (max-width: 1023px) { .works-marquee { animation-duration: 12s; } }
+
+.star-border { --r: 44px; display: inline-block; position: relative; overflow: hidden; padding: 2px; border-radius: var(--r); }
+.star-border__glow {
+  position: absolute; width: 200%; height: 200%; top: -50%; left: -50%;
+  filter: blur(8px); animation: star-rotate linear infinite;
+}
+.star-border__inner { position: relative; z-index: 1; height: 100%; background: #050507; border-radius: calc(var(--r) - 2px); }
+
+.works-card { display: block; }
+.works-btn { --r: 999px; transition: transform 0.3s ease; }
+.works-btn:hover { transform: scale(1.05); }
+.works-btn .star-border__inner { padding: 0.8rem 2rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #fff; }
+@media (max-width: 768px) { .star-border { --r: 28px; } }
