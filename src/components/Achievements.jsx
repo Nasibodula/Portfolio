@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import AnimatedNumbers from "react-animated-numbers";
 
 const achievementsList = [
@@ -23,19 +23,6 @@ const achievementsList = [
 ];
 
 const Achievements = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
 
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">

@@ -40,7 +40,7 @@ const TAB_DATA = [
 
 const About = () => {
   const [tab, setTab] = useState("skills");
-  const [isPending, startTransition] = useTransition();
+  const [, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
     startTransition(() => {
@@ -91,7 +91,7 @@ const About = () => {
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
-        <img src="/images/about_image.jpg" width={500} height={800} />
+        <img src="/images/about_image.jpg" alt="Nasibo Dula" width={500} height={800} />
       </div>
     </section>
   );
