@@ -172,10 +172,11 @@ const Hero = () => {
             <motion.div initial={{ opacity: 0, y: 80, scale: 0.85 }}
               animate={done ? { opacity: 1, y: 0, scale: 1 } : {}}
               transition={{ duration: 1, delay: 0.7, ease: "easeOut" }}
-              className="w-[min(62vw,340px)] aspect-[3/4] rounded-t-full overflow-hidden border border-[#33353F] bg-[#181818] shadow-[0_0_80px_rgba(34,211,238,0.2)]">
+              className="w-[min(62vw,340px)] aspect-[3/4]">
               <img src="/images/profile2.png" alt="Nasibo Dula" className="w-full h-full object-cover" draggable="false" />
             </motion.div>
           </Layer>
+          
 
           <Layer mx={mx} my={my} depth={0.3} className="absolute z-[11] w-full">
             <motion.div initial={{ width: 0 }} animate={done ? { width: "26vw" } : {}} transition={{ duration: 1, delay: 1.1 }}
