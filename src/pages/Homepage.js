@@ -37,8 +37,10 @@ export default function Homepage() {
   return (
     <SmoothScroll>
       <Navbar />
-      <div className="container mt-24 mx-auto px-12 py-4">
+      <div className="pt-24">
         <Hero />
+      </div>
+      <div className="container mx-auto px-12 py-4">
         <CoreCapabilities />
         <Achievements />
         <About />
